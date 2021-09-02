@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* 아웃로그인 스킨 */
+#t_outlogin {position:relative;}
+#t_outlogin.login1 p {overflow:hidden;}
+#t_outlogin.login1 p a {font-size: 13px;display: block;padding: 10px 22px 11px;  border-radius: 50px;float: left;color: #333;}
+#t_outlogin.login1 p a:last-child {background-color: #000;color: #fff;padding: 10px 36px 11px;text-decoration: none;transition:all .2s ease;}
+#t_outlogin.login1 p a:last-child:hover {background-color: #f54;}
+
+#t_outlogin #news, #t_outlogin #account{display:none;}
+#t_outlogin.login2 #login_bt {overflow:hidden;}
+#t_outlogin.login2 #login_bt p {float:left;}
+#t_outlogin.login2 #login_bt p:first-child {margin-right:20px;}
+#t_outlogin p.news a {width:20px; height:20px;font-size:0;display:block;}
+#t_outlogin p.news a i {font-size:20px;}
+#t_outlogin p.news span {position:absolute;background-color:#f54;color:#fff; border-radius:50px;font:9px/9px tahoma,sans-serif; padding:2px 3px 3px;min-width:13px;text-align:center;cursor:pointer;margin:-25px 0 0 10px;} /*알림수*/
+#t_outlogin p.account img {width:22px; height:22px; display:block; border-radius:18px;}
+#t_outlogin div p{color:#777; font-weight:300;}
+#t_outlogin #news{position:absolute; width:400px; background-color:#fff; z-index:9999 !important; border-radius:3px; box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24); border-color:#999;margin:37px 0 0 -362px;} 
+#t_outlogin #news::before{content:"\f0d8";font-family: FontAwesome;color:#fff;font-size:20px; position:absolute;top:-14px;right:22px;z-index:-1; text-shadow: 2px -3px 3px rgba(0,0,0,.09), -2px -3px 3px rgba(0,0,0,.09);}
+#t_outlogin #news h2{font-size:13px; font-weight:500; color:#000; padding:12px 50px 10px 24px; border-bottom:1px solid #eee;}
+#t_outlogin #news h2 span{margin-left:10px;color:#999;}
+#t_outlogin #news p{width:100%; text-align:center; margin:0;}
+#t_outlogin #ol_arm a {color:#333;font-size:12px;}
+#t_outlogin #account {position:absolute;width:282px; background-color:#fff; z-index:700; border-radius:3px; box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.24); border-color:#999; padding:0 0 23px;margin:15px 0 0 -203px;} 
+#t_outlogin #account::before{content:"\f0d8";font-family: FontAwesome;color:#fff;font-size:20px; position:absolute; top:-14px; right:22px;z-index:-1; text-shadow: 2px -3px 3px rgba(0,0,0,0.1), -2px -3px 3px rgba(0,0,0,0.1);}
+#t_outlogin #account p{line-height:100%;font-size:12px;width:calc(100% - 50px);margin:25px 25px 0;}
+#t_outlogin #account h2+p a {font-size:17px;font-weight:500;color:#222;}
+#t_outlogin #account a{color:#909090; padding:0;}
+#t_outlogin #account a:hover{color:#f54;}
+#t_outlogin #account p:nth-child(3) {margin-top:10px;}
+#t_outlogin #account p:nth-child(3) a {float:right;margin-left:10px;font-weight: 400;}
+#t_outlogin #account p:nth-child(3) a:nth-child(2) {color:#f54 !important;}
+#t_outlogin #account h3{font-size:12px;color:#909090; padding:25px 0 0 25px; border-top:1px solid #eee;font-weight:400;margin-top:20px;}
+#t_outlogin #account h3+p {margin-top:0;overflow:hidden;}
+#t_outlogin #account h3+p a {font-size:0;float:left;margin:5px 15px 0 0;}
+#t_outlogin #account i {font-size:12px;margin-right:5px;}
+#t_outlogin #account strong {font:bold 12px/100% tahoma,sans-serif;color:#ccc;margin-right:20px;}
+#t_outlogin #account a:hover strong {color:#f54;}
+#t_outlogin #account p:last-child {border-top:1px solid #eee;width:100%;margin:23px 0 0;padding:23px 25px 0;}
+#t_outlogin #account p:last-child a{display:block;color:#909090;font-weight:500;}
+#t_outlogin #account p:last-child a:hover{color:#f54;text-decoration:none;}
+
+/*알림관련*/
+#t_outlogin #news ul {padding-top:10px;}
+#t_outlogin #news li {position:relative;}
+#t_outlogin #news li.alarm_layer_list {padding:4px 25px;cursor:pointer;line-height:110%;font-size:12px;letter-spacing:-0.08em;color:#666;}
+#t_outlogin #news li.alarm_layer_list:hover {color:#000;}
+#t_outlogin #news li.alarm_layer_list .from_nick {font-weight:bold;}
+#t_outlogin #news li.arm_empty {font-size:12px;color:#999;text-align:center;line-height:50px;}
+#t_outlogin #news li:last-child {border-top:1px solid #eee;text-align:center; padding:10px;margin-top:10px;}
+#t_outlogin #news li:last-child a {display:inline-block;text-align:center; padding:3px 10px;color:#999;border:1px solid #eee;border-radius:3px;}
+#t_outlogin #news li:last-child a:last-child {margin-left:10px;}
+#t_outlogin #news li:last-child a:hover {border-color:#666;color:#fff;background-color:#666;}

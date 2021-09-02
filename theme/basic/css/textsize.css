@@ -1,0 +1,52 @@
+
+*:focus {
+    outline: none;
+}
+
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #fff;
+}
+
+.text11{font-size:11px !important;}
+.text12{font-size:12px !important;}
+.text13{font-size:13px !important;}
+.text14{font-size:14px !important;}
+.text15{font-size:15px !important;}
+.text16{font-size:16px !important;}
+.text18{font-size:18px !important;}
+.text20{font-size:20px !important;}
+.text22{font-size:22px !important;}
+.text24{font-size:24px !important;}
+.text26{font-size:26px !important;}
+.text28{font-size:28px !important;}
+.text30{font-size:30px !important;}
+.text32{font-size:32px !important;}
+.text34{font-size:34px !important;}
+.text36{font-size:36px !important;}
+
+.text1_0{font-size:1.0em !important;}
+.text1_2{font-size:1.2em !important;}
+.text1_4{font-size:1.4em !important;}
+.text1_6{font-size:1.6em !important;}
+.text1_8{font-size:1.8em !important;}
+.text2_0{font-size:2.0em !important;}
+.text2_4{font-size:2.4em !important;}
+.text2_8{font-size:2.8em !important;}
+.text3_0{font-size:3.0em !important;}
+.text3_2{font-size:3.2em !important;}
+.text3_4{font-size:3.4em !important;}
+.text3_6{font-size:3.6em !important;}
+.text3_8{font-size:3.8em !important;}
+.text4_0{font-size:4.0em !important;}
