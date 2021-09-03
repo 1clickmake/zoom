@@ -14,7 +14,7 @@ if (G5_IS_MOBILE) {
     return;
 }
 
-//head112233
+//head1122339998888
 include_once(G5_PATH.'/head.php');
 ?>
 
